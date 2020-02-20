@@ -65,23 +65,24 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Commenting out my previous CSS because it's giving me trouble. I'm going to start it from scratch. */
 
-section, header, footer {
-	/*border: 1px solid purple;*/
+/*section, header, footer {
+	border: 1px solid purple;
 	width: 90%;
 	margin: 4%;
 }
 
-/*nav, img, a, p, h1, h2, address, div {
+nav, img, a, p, h1, h2, address, div {
 	border: 1px solid purple;
-}*/
+}
 
 .logo {
 	margin-left: 2.5%;
 }
 
 nav {
-	display: inline-block;
+	display: flex;
 	width: 80%;
 	padding: 2%;
 }
@@ -97,20 +98,20 @@ nav a {
 }
 
 .first-section img {
-	display: inline-block;
+	display: flex;
 	margin-left: 6%;
 	width: 30%;
 }
 
 .first-section div {
-	display: inline-block;
+	display: flex;
 	margin: 2% 4%;
 	width: 45%;
 	text-align: center;
 }
 
 .first-section div a {
-	display: inline-block;
+	display: flex;
 	border: 1px solid black;
 	padding: 1%;
 	color: black;
@@ -127,7 +128,7 @@ h2 {
 }
 
 div {
-	display: inline-block;
+	display: flex;
 }
 
 .p-above-img {
@@ -161,4 +162,5 @@ footer p {
 .second-section {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-}
+}*/
+

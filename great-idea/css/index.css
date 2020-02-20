@@ -164,3 +164,43 @@ footer p {
 	border-bottom: 1px solid black;
 }*/
 
+header, nav, p, div, a, img, h1, h2, address, section, footer {
+	border: 1px solid purple;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+}
+
+nav a {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.first-section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.first-section div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.second-section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.second-section div {
+	margin: 2%;
+}

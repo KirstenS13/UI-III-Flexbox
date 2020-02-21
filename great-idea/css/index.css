@@ -170,14 +170,14 @@ body {
 	align-items: center;
 }
 
-header, nav, p, div, a, img, h1, h2, address, section, footer {
+/*header, nav, p, div, a, img, h1, h2, address, section, footer {
 	border: 1px solid purple;
-}
+}*/
 
 header {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	width: 85%;
 	margin: 2% 0;
 }
 
@@ -196,7 +196,8 @@ nav a {
 .first-section {
 	display: flex;
 	justify-content: space-evenly;
-	width: 90%;
+	width: 85%;
+	padding-bottom: 3%;
 }
 
 .first-section div {
@@ -227,26 +228,24 @@ nav a {
 .second-section {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
-	margin: 2%;
+	width: 85%;
+	padding: 3% 0 2% 0;
+	border-top: 1px solid black;
 }
 
 .second-section div {
-	width: 49%;
+	width: 48%;
 }
 
-/*.p-above-img:first-child {
-	margin: 2% 2% 2% 0;
+.p-above-img {
+	text-align: justify;
 }
-
-.p-above-img:last-child {
-	margin: 2% 0 2% 2%;
-}*/
 
 .middle-img-wrap {
 	display: flex;
 	justify-content: center;
-	width: 90%;
+	width: 85%;
+	padding: 2% 0;
 }
 
 .middle-img {
@@ -256,16 +255,21 @@ nav a {
 .third-section {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
-	margin: 2%;
+	width: 85%;
+	padding: 2% 0 3% 0;
+	border-bottom: 1px solid black;
 }
 
 .third-section div {
-	width: 32%;
+	width: 31%;
+}
+
+.p-below-img {
+	text-align: justify;
 }
 
 footer {
-	width: 90%;
+	width: 85%;
 	padding: 2% 0;
 }
 

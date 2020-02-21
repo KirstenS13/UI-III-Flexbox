@@ -363,28 +363,44 @@ p {
 
 /* Code for stretch goal, product.html */
 
-.products-header, .product-1-wrapper, .product-2-wrapper, .product-3-wrapper, .products-first-section, .products-footer, .products-header-img {
+/*.products-header, .product-1-wrapper, .product-2-wrapper, .product-3-wrapper, .products-first-section, .products-footer, .products-header-img {
 	border: 1px solid purple;
 }
 
 p, h2, div, img {
 	border: 1px solid purple;
-}
+} */
 
 .products-header-img {
 	width: 80%;
 	border-radius: 100px;
+	height: 50%;
 }
 
 .products-first-section {
 	width: 80%;
-	padding: 2% 0;
+	margin: 2% 0;
+	padding: 1% 0;
+	background: mistyrose;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid pink;
+}
+
+.products-first-section h2 {
+	font-size: 200%;
+	padding: 1% 0;
+}
+
+.products-first-section p {
+	padding: 0 3% 2% 3%;
 }
 
 .product-1-wrapper {
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .product-1-wrapper div {
@@ -393,12 +409,20 @@ p, h2, div, img {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background: plum;
+	background: thistle;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid plum;
+}
+
+.product-1-wrapper p {
+	padding: 0 3%;
 }
 
 .product-1-wrapper img {
 	width: 49%;
 	border-radius: 100px;
+	border: 1px solid lavender;
 }
 
 .product-2-wrapper {
@@ -406,6 +430,7 @@ p, h2, div, img {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row-reverse;
+	align-items: center;
 }
 
 .product-2-wrapper div {
@@ -414,18 +439,27 @@ p, h2, div, img {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background: lemonchiffon;
+	background: lightskyblue;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid skyblue;
+}
+
+.product-2-wrapper p {
+	padding: 0 3%;
 }
 
 .product-2-wrapper img {
 	width: 49%;
 	border-radius: 100px;
+	border: 1px solid lightskyblue;
 }
 
 .product-3-wrapper {
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .product-3-wrapper div {
@@ -434,10 +468,18 @@ p, h2, div, img {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background: palegreen;
+	background: blanchedalmond;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid bisque;
+}
+
+.product-3-wrapper p {
+	padding: 0 3%;
 }
 
 .product-3-wrapper img {
 	width: 49%;
 	border-radius: 100px;
+	border: 1px solid blanchedalmond;
 }

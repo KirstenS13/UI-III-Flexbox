@@ -360,3 +360,56 @@ footer li {
 p {
 	line-height: 1.25rem;
 }
+
+/* Code for stretch goal, product.html */
+
+.products-first-section {
+	width: 80%;
+}
+
+.products-header-img {
+	width: 80%;
+}
+
+.product-1-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-1-wrapper div {
+	width: 49%;
+}
+
+.product-1-wrapper img {
+	width: 49%;
+}
+
+.product-2-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.product-2-wrapper div {
+	width: 49%;
+}
+
+.product-2-wrapper img {
+	width: 49%;
+}
+
+.product-3-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-3-wrapper div {
+	width: 49%;
+}
+
+.product-3-wrapper img {
+	width: 49%;
+}
